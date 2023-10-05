@@ -35,6 +35,3 @@ console.log(BMIJohn)
 plusGrand = BMIMark > BMIJohn
 
 console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${plusGrand}`)
-
-
-
