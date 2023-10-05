@@ -41,5 +41,5 @@ console.log(`Le dixième de l'année est ${now / 10}`)
 
 
 // Opérateur typeof
-// Il sert à afficher le type de la variable
+// Il sert à afficher le type de la variable dans la console
 
