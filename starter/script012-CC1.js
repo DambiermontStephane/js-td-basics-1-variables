@@ -20,4 +20,21 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
+let poidMark = prompt('Poids(kg) de Mark ?')
+let tailleMark = prompt('Taille(m) de Mark ?')
+
+let poidJohn = prompt('Poids(kg) de John ?')
+let tailleJohn = prompt('Taille(m) de John ?')
+
+let BMIMark = poidMark / (tailleMark * tailleMark)
+let BMIJohn = poidJohn / (tailleJohn * tailleJohn)
+
+console.log(BMIMark)
+console.log(BMIJohn)
+
+plusGrand = BMIMark > BMIJohn
+
+console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${plusGrand}`)
+
+
 
