@@ -10,6 +10,7 @@ let age = 28;
 
 // 2. Ecrire l'instruction qui affiche "John a 28 ans"
 // et afficher le type de cette expression
+// typeof est un opérateur
 
 console.log(`${firstName} a ${age} ans`);
 console.log(typeof age);
