@@ -20,17 +20,17 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
-/*let poidMark = prompt('Poids(kg) de Mark ?')
+let poidMark = prompt('Poids(kg) de Mark ?')
 let tailleMark = prompt('Taille(m) de Mark ?')
 
 let poidJohn = prompt('Poids(kg) de John ?')
 let tailleJohn = prompt('Taille(m) de John ?')
 
 let BMIMark = poidMark / (tailleMark * tailleMark)
-let BMIJohn = poidJohn / (tailleJohn * tailleJohn)*/
+let BMIJohn = poidJohn / (tailleJohn * tailleJohn)
 
-BMIJohn = 5
-BMIMark = 5
+/*BMIJohn = 5
+BMIMark = 5*/
 
 console.log(BMIMark)
 console.log(BMIJohn)
