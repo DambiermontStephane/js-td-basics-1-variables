@@ -38,9 +38,9 @@ console.log(BMIJohn)
 //valeur booléenne toujours commencé par 'is'
 
 if (BMIMark < BMIJohn) {
-    console.log(`Le BMI de Mark ${BMIMark} est inférieur à celui de John ${BMIJohn}`)
+    console.log(`Le BMI de Mark (${BMIMark}) est inférieur à celui de John (${BMIJohn})`)
 } else if (BMIMark === BMIJohn) {
-        console.log(`Le BMI de Mark ${BMIMark} est égal à celui de John ${BMIJohn}`)
+        console.log(`Le BMI de Mark (${BMIMark}) est égal à celui de John (${BMIJohn})`)
 } else {
-    console.log(`Le BMI de Mark ${BMIMark} est supérieur à celui de John ${BMIJohn}`)
+    console.log(`Le BMI de Mark (${BMIMark}) est supérieur à celui de John (${BMIJohn})`)
 }
