@@ -5,5 +5,3 @@ const degreCelsius = prompt('Choisissez un nombre de degré Celsius à convertir
 const convertionFar = ((degreCelsius * 9 / 5)+32)
 
 console.log(`${degreCelsius}° Celsius vaut ${convertionFar}° Fahrenheit`)
-
-
