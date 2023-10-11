@@ -20,18 +20,27 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
-let poidMark = prompt('Poids(kg) de Mark ?')
+/*let poidMark = prompt('Poids(kg) de Mark ?')
 let tailleMark = prompt('Taille(m) de Mark ?')
 
 let poidJohn = prompt('Poids(kg) de John ?')
 let tailleJohn = prompt('Taille(m) de John ?')
 
 let BMIMark = poidMark / (tailleMark * tailleMark)
-let BMIJohn = poidJohn / (tailleJohn * tailleJohn)
+let BMIJohn = poidJohn / (tailleJohn * tailleJohn)*/
+
+BMIJohn = 5
+BMIMark = 5
 
 console.log(BMIMark)
 console.log(BMIJohn)
 
-plusGrand = BMIMark > BMIJohn
+//valeur booléenne toujours commencé par 'is'
 
-console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${plusGrand}`)
+if (BMIMark < BMIJohn) {
+    console.log(`Le BMI de Mark ${BMIMark} est inférieur à celui de John ${BMIJohn}`)
+} else if (BMIMark === BMIJohn) {
+        console.log(`Le BMI de Mark ${BMIMark} est égal à celui de John ${BMIJohn}`)
+} else {
+    console.log(`Le BMI de Mark ${BMIMark} est supérieur à celui de John ${BMIJohn}`)
+}
